@@ -1,0 +1,132 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>My Ultimate College Life Web Page</title>
+    <link rel="stylesheet" href="style.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/7.0.1/css/all.min.css">
+    <link rel="stylesheet" type="text/css" href="https://fonts.googleapis.com/css?family=Poppins" />
+
+</head>
+<body>
+   <div class="container">
+    <div class="header">
+        <ul>
+            <li><a href="#">College Must-Haves</a></li>
+            <li><a href="#">Daily Routine</a></li>
+            <li><a href="#">Hobbies/Interests</a></li>
+            <li><a href="#">Certifications</a></li>
+        </ul>
+        <button>contact <i class=" fa fa-arrow-right"></i></button>
+        <i class="fa fa-bars"></i>
+    </div>
+    <div class="hero">
+        <div class="content">
+            <h1>Hey There It's <br> Ken Mae Lyn L. Villanueva</h1>
+            <p>An average student studying at <i><b>Ateneo De Naga University</b></i>, trying to survive her course, <i><b>BS Information
+                Systems</b></i>, despite the deep hate for coding (Yes, I had multiple breakdowns before I completed this website).
+                I <i><b>love my side quests</b></i> with my ADNU <i><b>friends</b></i> more than actually going to class. Despite the hate,
+                I always ensure I comply, though it's always the last minute. I lived in a mantra, <i><b>"Malayo pa pero malayo na."</b></i>
+            </p>
+            <button> Say Hello <i class="fa fa-arrow-right"></i></button>
+        </div>
+        <div class="hero-image"></div>
+        <img src="ken.jpg" alt=""> 
+    </div>
+    <div class="service">
+        <h1>College Must-Haves</h1>
+        <div class="cards">
+            <div class="card">
+                <img src="phone.jpg" alt="">
+                <div class="content">
+                    <h2>My Phone</h2>
+                </div>
+                </div>
+                <div class="card">
+                <img src="gtech.jpg" alt="">
+                <div class="content">
+                    <h2>0.3 Pilot G-tech</h2>
+            </div>
+        </div>
+             <div class="card">
+                <img src="yellowpad.jpg" alt="">
+                <div class="content">
+                    <h2>Yellow Pad Paper</h2>
+                    </div>
+        </div>
+    </div>
+   </div>
+
+   <div class="resume-section">
+    <div class="resume">
+        <div class="detail">
+            <h1>Daily Routine</h1>
+            <div class="card-wrapper">
+                <div class="card">
+                    <h3>Morning Activities</h3>
+<ol>
+    <li>From Monday to Thursday, I have to go to my classes.</li>
+    <li>I go home for lunch since I have a long lunch break and feed my cat, Dos.</li>
+    <li>When it's the weekend, I will wake up late and do my activities if I have time or go to my best friend's house and have a sleepover.</li>
+</ol>
+<hr>
+                </div> 
+               <h3>Evening Activities</h3>
+<ol>
+    <li>On Monday and Thursday, I have night classes where I either go straight home, eat dinner with my friends, train with the basketball girls, or hang out at my friend's dorm.</li>
+    <li>After going home, I check if I have dues for the day.</li>
+    <li>If I have no dues, I watch movies and series.</li>
+</ol>
+
+                </div>
+            </div>
+        </div>
+    </div>
+   <div class="project-wrapper">
+    <div class="project">
+        <h1>Hobbies / Interests</h1>
+        <div class="card">
+            <div class="details">
+                <h2>Playing CODM</h2>
+            <div class="image">
+                <img src="sidequest4.jpg" alt="">
+                <h2>I'm obsessed with cars</h2>
+                <img src="sidequest1.jpg" alt="">
+          <h2>Down with every side quests</h2>
+                <img src="sidequest2.jpg" alt="">
+     <h2>Watching movies and series</h2>
+                <img src="sidequest3.jpg" alt="">
+   <h2>I love cats, especially my baby boy dos</h2>
+                <img src="sidequest5.jpg" alt="">
+   <h2>Playing basketball with my girls</h2>
+                <img src="sidequest6.jpg" alt="">
+   </div>
+   <div class="footer">
+    <div class="footer-content">
+    <h1>Internship</h1>
+    <h2>February 19, 2024 to March 22, 2024 at Pandalivery</h2>
+    </div>
+   </div>
+
+   <script>
+    let menu = document.querySelector("ul");
+    let bars = document.querySelector(".header .fa-bars");
+    let header = document.querySelector("header")
+
+    bars.addEventListener("click",function(){
+        menu.classList.toggle("show");
+    })
+
+    window.addEventListener("scroll",()=>{
+        if(window.scrollY>10) {
+            header.classList.add("navbg");
+        }
+        else {
+            header.classList.remove("navbg");
+        }
+    })
+
+   </script>
+</body>
+</html>
